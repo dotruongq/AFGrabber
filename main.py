@@ -47,13 +47,13 @@ def accept_block(block):
     accept = session.post(
         "https://flex-capacity-na.amazon.com/AcceptOffer",
         headers=header_data.headers,
-        json=json_data.accept_json_data(block["offerID"]),
+        json=json_data.accept_json_data(block["offerId"]),
     )
 
     if accept.status_code == 200:
-        logging.info(f"Caught The Block For {block['rateInfo']['payAmount']}")
+        logging.info(f"Caught The Block For {block['rateInfo']['priceAmount']}")
     else:
-        logging.info(f"Missed The Block For {block['rateInfo']['payAmount']}")
+        logging.info(f"Missed The Block For {block['rateInfo']['priceAmount']}")
 
     return accept.status_code
 
