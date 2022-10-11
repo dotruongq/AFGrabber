@@ -9,12 +9,11 @@ import requests,json,time,uuid,sys,random,datetime
 
 
 headers = {
-    'x-amz-access-token': 'Atna|EwICIEfggdDMv_ZQ4dAPLt1_Tx3BYGOg__VrkJ5Rk3macH4wPicntda_E2zLeKsTVX3GQbe9q8uNjF2KyLwvnz_ulqpDPRbPWGxyGzyj0uqdvrGtjacqDwSL6QnxPdcfE1996sLh3qIJzQ1pLVzPTwsy2lkscwIpBevxkOX5NSgtAZPRc4xuSUVP6pHP1C6MfuwpR9yaslLW3p490itk1wEKlIvsgygpPetbKqAa72zjIXnTjP000WCAXeVeIiGPjHPANEB7vbYu6tuEGqSAX05Vadyp5NwZ68lF_CrPowSY5U_vugzSZ2tgYqH5iT_0-eIakEs3VzP6LrloGUzFjDSo4t49',
+    'x-amz-access-token': '',
 
 
 
-
-    'x-flex-instance-id': 'a3e8f85d-121a-46f3-abe8-ac9f026e74dc',
+    'x-flex-instance-id': '',
     
     
     'X-Amzn-RequestId': str(uuid.uuid4()),
